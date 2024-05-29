@@ -1,7 +1,7 @@
 @extends('layouts.home')
 
 @section('title')
-    Checkout | Point Sebelas
+    Checkout | Pasar Tani
 @endsection
 
 @section('content')
@@ -20,7 +20,7 @@
     <!-- Checkout Page Start -->
     <div class="py-5 container-fluid">
         <div class="container py-5">
-            <h1 class="mb-4">Billing details</h1>
+            <h1 class="mb-4">Alamat Lengkap</h1>
             <form method="post" action="{{ route('checkout.store') }}" enctype="multipart/form-data">
                 @csrf
                 <div class="row g-5">
@@ -28,35 +28,35 @@
                         <div class="row">
                             <div class="col-md-12 col-lg-6">
                                 <div class="form-item w-100">
-                                    <label class="my-3 form-label">First Name<sup>*</sup></label>
+                                    <label class="my-3 form-label">Nama Depan<sup>*</sup></label>
                                     <input type="text" name="first_name" class="form-control">
                                 </div>
                             </div>
                             <div class="col-md-12 col-lg-6">
                                 <div class="form-item w-100">
-                                    <label class="my-3 form-label">Last Name<sup>*</sup></label>
+                                    <label class="my-3 form-label">Nama Belakang<sup>*</sup></label>
                                     <input type="text" name="last_name" class="form-control">
                                 </div>
                             </div>
                         </div>
                         <div class="form-item">
-                            <label class="my-3 form-label">Address <sup>*</sup></label>
-                            <input type="text" name="address" class="form-control" placeholder="House Number Street Name">
+                            <label class="my-3 form-label">Alamat Lengkap <sup>*</sup></label>
+                            <input type="text" name="address" class="form-control" placeholder="Nama Jalan Nomor Rumah">
                         </div>
                         <div class="form-item">
-                            <label class="my-3 form-label">Town/City<sup>*</sup></label>
+                            <label class="my-3 form-label">Kota/Kecamatan<sup>*</sup></label>
                             <input type="text" name="city" class="form-control">
                         </div>
                         <div class="form-item">
-                            <label class="my-3 form-label">Country<sup>*</sup></label>
+                            <label class="my-3 form-label">Provinsi<sup>*</sup></label>
                             <input type="text" name="country" class="form-control">
                         </div>
                         <div class="form-item">
-                            <label class="my-3 form-label">Postcode/Zip<sup>*</sup></label>
+                            <label class="my-3 form-label">Kode Pos<sup>*</sup></label>
                             <input type="text" name="zip_code" class="form-control">
                         </div>
                         <div class="form-item">
-                            <label class="my-3 form-label">Mobile Phone<sup>*</sup></label>
+                            <label class="my-3 form-label">Nomor Telepon<sup>*</sup></label>
                             <input type="tel" name="phone" class="form-control">
                         </div>
                         {{-- <div class="mt-5">
@@ -104,7 +104,7 @@
                                         <th scope="row">
                                         </th>
                                         <td class="py-5">
-                                            <p class="py-3 mb-0 text-dark text-uppercase">TOTAL + PPN 10%</p>
+                                            <p class="py-3 mb-0 text-dark text-uppercase">TOTAL BELANJA</p>
                                         </td>
                                         <td class="py-5"></td>
                                         <td class="py-5"></td>
@@ -119,24 +119,18 @@
                                         <th scope="row">
                                         </th>
                                         <td class="py-5">
-                                            <p class="py-4 mb-0 text-dark">Shipping</p>
+                                            <p class="py-4 mb-0 text-dark">Pengiriman</p>
                                         </td>
                                         <td colspan="3" class="py-5">
                                             <div class="form-check text-start">
                                                 <input type="checkbox" class="border-0 form-check-input bg-primary"
                                                     id="Shipping-1" name="Shipping-1" value="Shipping">
-                                                <label class="form-check-label" for="Shipping-1">Free Shipping</label>
+                                                <label class="form-check-label" for="Shipping-1">Gratis Pengiriman</label>
                                             </div>
                                             <div class="form-check text-start">
                                                 <input type="checkbox" class="border-0 form-check-input bg-primary"
                                                     id="Shipping-2" name="Shipping-1" value="Shipping">
-                                                <label class="form-check-label" for="Shipping-2">Flat rate: $15.00</label>
-                                            </div>
-                                            <div class="form-check text-start">
-                                                <input type="checkbox" class="border-0 form-check-input bg-primary"
-                                                    id="Shipping-3" name="Shipping-1" value="Shipping">
-                                                <label class="form-check-label" for="Shipping-3">Local Pickup:
-                                                    $8.00</label>
+                                                <label class="form-check-label" for="Shipping-2">Ambil Ditempat</label>
                                             </div>
                                         </td>
                                     </tr>

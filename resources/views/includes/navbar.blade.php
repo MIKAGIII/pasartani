@@ -12,9 +12,9 @@
             <div class="d-flex justify-content-between">
                 <div class="top-info ps-2">
                     <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#"
-                            class="text-white">123 Street, Bekasi</a></small>
+                            class="text-white">Rangkasbitung, Lebak, Banten 42315</a></small>
                     <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#"
-                            class="text-white">Email@Example.com</a></small>
+                            class="text-white">distan@gmail.com</a></small>
                 </div>
                 <div class="top-link pe-2">
                     <a href="#" class="text-white"><small class="mx-2 text-white">Privacy Policy</small>/</a>
@@ -26,7 +26,7 @@
         <div class="container px-0">
             <nav class="bg-white navbar navbar-light navbar-expand-xl">
                 <a href="{{ route('home') }}" class="navbar-brand">
-                    <h1 class="text-primary display-6">Point Sebelas</h1>
+                    <h1 class="text-primary display-6">Pasar Tani</h1>
                 </a>
                 <button class="px-3 py-2 navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
@@ -40,6 +40,8 @@
                             class="nav-item nav-link{{ request()->routeIs('shop') ? ' active' : '' }}">Shop</a>
                         <a href="{{ route('contact') }}"
                             class="nav-item nav-link{{ request()->routeIs('contact') ? ' active' : '' }}">Contact</a>
+                        <a href="{{ route('about') }}" 
+                            class="nav-item nav-link{{ request()->routeIs('about') ? ' active' : '' }}">About Us</a>
                     </div>
 
                     <div class="m-3 d-flex me-0">

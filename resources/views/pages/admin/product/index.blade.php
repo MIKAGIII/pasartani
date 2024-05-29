@@ -25,7 +25,7 @@
                                                 <th>Price</th>
                                                 <th>Quantity</th>
                                                 <th>Quality</th>
-                                                <th>Country Of Origin</th>
+                                                <th>Asal Komoditas</th>
                                                 <th>Min Weight</th>
                                                 <th>Photo</th>
                                                 <th>Aksi</th>

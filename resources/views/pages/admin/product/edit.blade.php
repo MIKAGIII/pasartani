@@ -50,7 +50,7 @@
                                             class="block w-full mt-1" autocomplete="check" :value="old('check', $item->check)" />
                                     </div>
                                     <div>
-                                        <x-input-label for="country_of_origin" :value="__('Country Of Origin')" />
+                                        <x-input-label for="country_of_origin" :value="__('Asal Komoditas')" />
                                         <x-text-input id="country_of_origin" name="country_of_origin" type="text"
                                             class="block w-full mt-1" autocomplete="country_of_origin"
                                             :value="old('country_of_origin', $item->country_of_origin)" />

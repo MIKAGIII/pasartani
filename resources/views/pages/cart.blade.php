@@ -1,7 +1,7 @@
 @extends('layouts.home')
 
 @section('title')
-    Cart | Point Sebelas
+    Cart | Pasar Tani
 @endsection
 
 @section('content')

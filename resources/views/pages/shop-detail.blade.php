@@ -103,7 +103,7 @@
                                                 </div>
                                                 <div class="py-2 text-center row align-items-center justify-content-center">
                                                     <div class="col-6">
-                                                        <p class="mb-0">Country of Origin</p>
+                                                        <p class="mb-0">Asal Komoditas</p>
                                                     </div>
                                                     <div class="col-6">
                                                         <p class="mb-0">{{ $product->country_of_origin }}</p>

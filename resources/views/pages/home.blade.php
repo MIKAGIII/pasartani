@@ -1,7 +1,7 @@
 @extends('layouts.home')
 
 @section('title')
-    Home | Point Sebelas
+    Home | Pasar Tani
 @endsection
 
 @section('content')
@@ -31,8 +31,8 @@
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-md-12 col-lg-7">
-                    <h4 class="mb-3 text-secondary">100% Organic Foods</h4>
-                    <h1 class="mb-5 display-3 text-primary">Organic Veggies & Fruits Foods</h1>
+                    <h4 class="mb-3 text-secondary">DISTAN KABUPATEN LEBAK</h4>
+                    <h1 class="mb-5 display-3 text-primary">Buah-buahan & Sayuran Segar</h1>
                     <div class="mx-auto position-relative">
                         <input class="px-4 py-3 border-2 form-control border-secondary w-75 rounded-pill" type="number"
                             placeholder="Search">
@@ -47,11 +47,11 @@
                             <div class="rounded carousel-item active">
                                 <img src="img/hero-img-1.png" class="rounded img-fluid w-100 h-100 bg-secondary"
                                     alt="First slide">
-                                <a href="#" class="px-4 py-2 text-white rounded btn">Fruites</a>
+                                <a href="#" class="px-3 py-2 text-white rounded btn">Buah-buahan</a>
                             </div>
                             <div class="rounded carousel-item">
                                 <img src="img/hero-img-2.jpg" class="rounded img-fluid w-100 h-100" alt="Second slide">
-                                <a href="#" class="px-4 py-2 text-white rounded btn">Vesitables</a>
+                                <a href="#" class="px-4 py-2 text-white rounded btn">Sayuran</a>
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselId"
@@ -82,8 +82,8 @@
                             <i class="text-white fas fa-car-side fa-3x"></i>
                         </div>
                         <div class="text-center featurs-content">
-                            <h5>Free Shipping</h5>
-                            <p class="mb-0">Free on order over $300</p>
+                            <h5>Gratis Ongkir</h5>
+                            <p class="mb-0">Gratis untuk pesanan di atas Rp.50.000</p>
                         </div>
                     </div>
                 </div>
@@ -93,8 +93,8 @@
                             <i class="text-white fas fa-user-shield fa-3x"></i>
                         </div>
                         <div class="text-center featurs-content">
-                            <h5>Security Payment</h5>
-                            <p class="mb-0">100% security payment</p>
+                            <h5>Keamanan</h5>
+                            <p class="mb-0">Pembayaran keamanan 100%.</p>
                         </div>
                     </div>
                 </div>
@@ -104,8 +104,8 @@
                             <i class="text-white fas fa-exchange-alt fa-3x"></i>
                         </div>
                         <div class="text-center featurs-content">
-                            <h5>30 Day Return</h5>
-                            <p class="mb-0">30 day money guarantee</p>
+                            <h5>Garansi</h5>
+                            <p class="mb-0">Garansi mendapatkan buah segar</p>
                         </div>
                     </div>
                 </div>
@@ -115,8 +115,8 @@
                             <i class="text-white fa fa-phone-alt fa-3x"></i>
                         </div>
                         <div class="text-center featurs-content">
-                            <h5>24/7 Support</h5>
-                            <p class="mb-0">Support every time fast</p>
+                            <h5>Dukungan 24/7</h5>
+                            <p class="mb-0">WhatsApp chat 082132343968</p>
                         </div>
                     </div>
                 </div>
@@ -268,25 +268,16 @@
             <div class="row g-4 align-items-center">
                 <div class="col-lg-6">
                     <div class="py-4">
-                        <h1 class="text-white display-3">Fresh Exotic Fruits</h1>
-                        <p class="mb-4 fw-normal display-3 text-dark">in Our Store</p>
-                        <p class="mb-4 text-dark">The generated Lorem Ipsum is therefore always free from repetition
-                            injected humour, or non-characteristic words etc.</p>
-                        <a href="#"
-                            class="px-5 py-3 border-2 border-white banner-btn btn rounded-pill text-dark">BUY</a>
+                        <h1 class="text-white display-3">Apa Itu Pasar Tani?</h1>
+                        <p class="mb-4 text-dark">Pasar Tani merupakan inisiasi dari Kepala Dinas Pertanian Kabupaten Lebak berupa pasar yang khusus menjual barang-barang hasil Pertanian unggulan 
+                            petani Lebak seperti sayur-sayuran, ayam, daging segar dan produk yang lain.</p>
+                        <a href="{{ route('about') }}"
+                            class="px-5 py-3 border-2 border-white banner-btn btn rounded-pill text-dark">Baca Selengkapnya</a>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="position-relative">
-                        <img src="img/baner-1.png" class="rounded img-fluid w-100" alt="">
-                        <div class="bg-white d-flex align-items-center justify-content-center rounded-circle position-absolute"
-                            style="width: 140px; height: 140px; top: 0; left: 0;">
-                            <h1 style="font-size: 100px;">1</h1>
-                            <div class="d-flex flex-column">
-                                <span class="mb-0 h2">50$</span>
-                                <span class="mb-0 h4 text-muted">kg</span>
-                            </div>
-                        </div>
+                        <img src="img/kegiatanpt2.png" class="rounded img-fluid w-100" alt="">
                     </div>
                 </div>
             </div>
@@ -319,7 +310,7 @@
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <h4 class="mb-3">3.12 $</h4>
+                                <h4 class="mb-3">Rp 12.000</h4>
                                 <a href="#" class="px-3 border btn border-secondary rounded-pill text-primary"><i
                                         class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                             </div>
@@ -341,7 +332,7 @@
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <h4 class="mb-3">3.12 $</h4>
+                                <h4 class="mb-3">Rp 12.000</h4>
                                 <a href="#" class="px-3 border btn border-secondary rounded-pill text-primary"><i
                                         class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                             </div>
@@ -363,7 +354,7 @@
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <h4 class="mb-3">3.12 $</h4>
+                                <h4 class="mb-3">Rp 12.000</h4>
                                 <a href="#" class="px-3 border btn border-secondary rounded-pill text-primary"><i
                                         class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                             </div>
@@ -385,7 +376,7 @@
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <h4 class="mb-3">3.12 $</h4>
+                                <h4 class="mb-3">Rp 12.000</h4>
                                 <a href="#" class="px-3 border btn border-secondary rounded-pill text-primary"><i
                                         class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                             </div>
@@ -407,7 +398,7 @@
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <h4 class="mb-3">3.12 $</h4>
+                                <h4 class="mb-3">Rp 12.000</h4>
                                 <a href="#" class="px-3 border btn border-secondary rounded-pill text-primary"><i
                                         class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                             </div>
@@ -429,7 +420,7 @@
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <h4 class="mb-3">3.12 $</h4>
+                                <h4 class="mb-3">Rp 12.000</h4>
                                 <a href="#" class="px-3 border btn border-secondary rounded-pill text-primary"><i
                                         class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                             </div>
@@ -448,7 +439,7 @@
                                 <i class="fas fa-star text-primary"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                            <h4 class="mb-3">3.12 $</h4>
+                            <h4 class="mb-3">Rp 12.000</h4>
                             <a href="#" class="px-3 border btn border-secondary rounded-pill text-primary"><i
                                     class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                         </div>
@@ -466,7 +457,7 @@
                                 <i class="fas fa-star text-primary"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                            <h4 class="mb-3">3.12 $</h4>
+                            <h4 class="mb-3">Rp 12.000</h4>
                             <a href="#" class="px-3 border btn border-secondary rounded-pill text-primary"><i
                                     class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                         </div>
@@ -484,7 +475,7 @@
                                 <i class="fas fa-star text-primary"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                            <h4 class="mb-3">3.12 $</h4>
+                            <h4 class="mb-3">Rp 12.000</h4>
                             <a href="#" class="px-3 border btn border-secondary rounded-pill text-primary"><i
                                     class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                         </div>
@@ -494,7 +485,7 @@
                     <div class="text-center">
                         <img src="img/fruite-item-4.jpg" class="rounded img-fluid" alt="">
                         <div class="py-2">
-                            <a href="#" class="h5">Organic Tomato</a>
+                            <a href="#" class="h5">Tomato</a>
                             <div class="my-3 d-flex justify-content-center">
                                 <i class="fas fa-star text-primary"></i>
                                 <i class="fas fa-star text-primary"></i>
@@ -502,7 +493,7 @@
                                 <i class="fas fa-star text-primary"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                            <h4 class="mb-3">3.12 $</h4>
+                            <h4 class="mb-3">Rp 12.000</h4>
                             <a href="#" class="px-3 border btn border-secondary rounded-pill text-primary"><i
                                     class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                         </div>
@@ -514,52 +505,12 @@
     <!-- Bestsaler Product End -->
 
 
-    <!-- Fact Start -->
-    <div class="py-5 container-fluid">
-        <div class="container">
-            <div class="p-5 rounded bg-light">
-                <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="p-5 bg-white rounded counter">
-                            <i class="fa fa-users text-secondary"></i>
-                            <h4>satisfied customers</h4>
-                            <h1>1963</h1>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="p-5 bg-white rounded counter">
-                            <i class="fa fa-users text-secondary"></i>
-                            <h4>quality of service</h4>
-                            <h1>99%</h1>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="p-5 bg-white rounded counter">
-                            <i class="fa fa-users text-secondary"></i>
-                            <h4>quality certificates</h4>
-                            <h1>33</h1>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="p-5 bg-white rounded counter">
-                            <i class="fa fa-users text-secondary"></i>
-                            <h4>Available Products</h4>
-                            <h1>789</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Fact Start -->
-
-
     <!-- Tastimonial Start -->
     <div class="py-5 container-fluid testimonial">
         <div class="container py-5">
             <div class="text-center testimonial-header">
                 <h4 class="text-primary">Our Testimonial</h4>
-                <h1 class="mb-5 display-5 text-dark">Our Client Saying!</h1>
+                <h1 class="mb-5 display-5 text-dark">Kata pelanggan Kami!</h1>
             </div>
             <div class="owl-carousel testimonial-carousel">
                 <div class="p-4 rounded testimonial-item img-border-radius bg-light">
@@ -567,18 +518,18 @@
                         <i class="fa fa-quote-right fa-2x text-secondary position-absolute"
                             style="bottom: 30px; right: 0;"></i>
                         <div class="pb-4 mb-4 border-bottom border-secondary">
-                            <p class="mb-0">Lorem Ipsum is simply dummy text of the printing Ipsum has been the
-                                industry's standard dummy text ever since the 1500s,
+                            <p class="mb-0">"Saya sangat senang berbelanja di Pasar Tani. Selain produk-produknya segar dan berkualitas, 
+                                harganya juga terjangkau. Saya sering membeli sayuran dan buah-buahan di sini."
                             </p>
                         </div>
                         <div class="d-flex align-items-center flex-nowrap">
                             <div class="rounded bg-secondary">
-                                <img src="img/testimonial-1.jpg" class="rounded img-fluid"
+                                <img src="img/testi1.jpg" class="rounded img-fluid"
                                     style="width: 100px; height: 100px;" alt="">
                             </div>
                             <div class="ms-4 d-block">
-                                <h4 class="text-dark">Client Name</h4>
-                                <p class="pb-3 m-0">Profession</p>
+                                <h4 class="text-dark">Fitriyah</h4>
+                                <p class="pb-3 m-0">Masyarakat</p>
                                 <div class="d-flex pe-5">
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star text-primary"></i>
@@ -595,18 +546,18 @@
                         <i class="fa fa-quote-right fa-2x text-secondary position-absolute"
                             style="bottom: 30px; right: 0;"></i>
                         <div class="pb-4 mb-4 border-bottom border-secondary">
-                            <p class="mb-0">Lorem Ipsum is simply dummy text of the printing Ipsum has been the
-                                industry's standard dummy text ever since the 1500s,
+                            <p class="mb-0">"penjualnya selalu ramah. Pasar ini juga mendukung petani 
+                                lokal, sehingga kita tahu bahwa setiap pembelian kita membantu perekonomian masyarakat setempat."
                             </p>
                         </div>
                         <div class="d-flex align-items-center flex-nowrap">
                             <div class="rounded bg-secondary">
-                                <img src="img/testimonial-1.jpg" class="rounded img-fluid"
+                                <img src="img/testi2.jpg" class="rounded img-fluid"
                                     style="width: 100px; height: 100px;" alt="">
                             </div>
                             <div class="ms-4 d-block">
-                                <h4 class="text-dark">Client Name</h4>
-                                <p class="pb-3 m-0">Profession</p>
+                                <h4 class="text-dark">Sarwanto</h4>
+                                <p class="pb-3 m-0">Pegawai Dinsos Lebak</p>
                                 <div class="d-flex pe-5">
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star text-primary"></i>
@@ -623,18 +574,17 @@
                         <i class="fa fa-quote-right fa-2x text-secondary position-absolute"
                             style="bottom: 30px; right: 0;"></i>
                         <div class="pb-4 mb-4 border-bottom border-secondary">
-                            <p class="mb-0">Lorem Ipsum is simply dummy text of the printing Ipsum has been the
-                                industry's standard dummy text ever since the 1500s,
-                            </p>
+                            <p class="mb-0">"Pasar Tani ini benar-benar mendukung konsep keberlanjutan dan pemberdayaan lokal. Setiap kali saya berbelanja 
+                                di sini, saya merasa seperti memberikan kontribusi langsung kepada komunitas petani lokal."
                         </div>
                         <div class="d-flex align-items-center flex-nowrap">
                             <div class="rounded bg-secondary">
-                                <img src="img/testimonial-1.jpg" class="rounded img-fluid"
+                                <img src="img/testi4.jpg" class="rounded img-fluid"
                                     style="width: 100px; height: 100px;" alt="">
                             </div>
                             <div class="ms-4 d-block">
-                                <h4 class="text-dark">Client Name</h4>
-                                <p class="pb-3 m-0">Profession</p>
+                                <h4 class="text-dark">Yeni Mulyani</h4>
+                                <p class="pb-3 m-0">Pegawai Dishub Lebak</p>
                                 <div class="d-flex pe-5">
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star text-primary"></i>

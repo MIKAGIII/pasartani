@@ -1,13 +1,13 @@
 @extends('layouts.home')
 
 @section('title')
-    Order List | Point Sebelas
+    Order List | Pasar Tani
 @endsection
 
 @section('content')
     <!-- Single Page Header start -->
     <div class="py-5 container-fluid page-header">
-        <h1 class="text-center text-white display-6">Order List</h1>
+        <h1 class="text-center text-white display-6">History Order</h1>
         <ol class="mb-0 breadcrumb justify-content-center">
             <li class="breadcrumb-item"><a href="{{ route('home')}}">Home</a></li>
             <li class="breadcrumb-item"><a href="#">Pages</a></li>

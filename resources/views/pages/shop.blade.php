@@ -1,7 +1,7 @@
 @extends('layouts.home')
 
 @section('title')
-    Shop | Point Sebelas
+    Shop | Pasar Tani
 @endsection
 
 @section('content')

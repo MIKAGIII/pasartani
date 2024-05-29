@@ -1,7 +1,7 @@
 @extends('layouts.home')
 
 @section('title')
-    Order List Detail | Point Sebelas
+    Order List Detail | Pasar Tani
 @endsection
 
 @section('content')
